@@ -120,7 +120,7 @@ const Dashboard = () => {
           const Icon = stat.icon;
           return (
             <div key={index} className="card">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between bg-blue-100">
                 <div className="flex-1 min-w-0">
                   <p className="text-gray-600 text-xs sm:text-sm mb-1 truncate">{stat.title}</p>
                   <p className="text-2xl sm:text-3xl font-bold text-gray-800 truncate">{stat.value}</p>

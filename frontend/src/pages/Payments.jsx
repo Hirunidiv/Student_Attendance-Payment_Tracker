@@ -95,7 +95,7 @@ const Payments = () => {
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         <div className="card">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-blue-100">
             <DollarSign className="text-green-600" size={32} />
             <div>
               <p className="text-gray-600 text-sm">Total Income</p>
@@ -105,7 +105,7 @@ const Payments = () => {
         </div>
 
         <div className="card">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-blue-100">
             <Calendar className="text-blue-600" size={32} />
             <div>
               <p className="text-gray-600 text-sm">Total Payments</p>
@@ -115,7 +115,7 @@ const Payments = () => {
         </div>
 
         <div className="card">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-blue-100">
             <DollarSign className="text-purple-600" size={32} />
             <div>
               <p className="text-gray-600 text-sm">Average Payment</p>

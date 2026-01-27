@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@reference "tailwindcss";
-
 
 * {
   margin: 0;
@@ -15,6 +13,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f3f4f6;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
 }
 
 @theme {

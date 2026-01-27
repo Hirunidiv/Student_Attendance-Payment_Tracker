@@ -81,7 +81,7 @@ const Attendance = () => {
 
       {/* Date Selector & Stats */}
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-8">
-        <div className="card lg:col-span-1">
+        <div className="card lg:col-span-1 bg-blue-100">
           <label className="label">Select Date</label>
           <input
             type="date"
@@ -92,7 +92,7 @@ const Attendance = () => {
         </div>
 
         <div className="card">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-blue-100">
             <Calendar className="text-blue-600" size={32} />
             <div>
               <p className="text-gray-600 text-sm">Total Students</p>
@@ -102,7 +102,7 @@ const Attendance = () => {
         </div>
 
         <div className="card">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-blue-100">
             <UserCheck className="text-green-600" size={32} />
             <div>
               <p className="text-gray-600 text-sm">Present</p>
@@ -112,7 +112,7 @@ const Attendance = () => {
         </div>
 
         <div className="card">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-blue-100">
             <UserX className="text-red-600" size={32} />
             <div>
               <p className="text-gray-600 text-sm">Absent</p>
