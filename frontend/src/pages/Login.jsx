@@ -78,7 +78,7 @@ const Login = () => {
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-6">
-          Default credentials: <span className="font-medium">admin / admin123</span>
+          {/* Default credentials: <span className="font-medium">admin / admin123</span> */}
         </p>
       </div>
     </div>
